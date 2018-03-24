@@ -1,0 +1,18 @@
+{
+  "name": "fariharaserver",
+  "version": "1.0.0",
+  "description": "Server-side API for the FariHara application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Stephen Ojo",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4",
+    "nodemon": "^1.17.2"
+  }
+}
